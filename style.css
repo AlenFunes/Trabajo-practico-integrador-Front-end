@@ -1,0 +1,159 @@
+nav{
+    height: 100px;
+    background-color: aqua;
+    color: aliceblue;
+}
+#navbarNav{
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(253, 253, 253, 0.55);
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(247, 247, 247, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link .nav-link2{
+    color: rgba(51, 207, 12, 0.9);
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+.nav-item .nav-link2{
+    color: green;
+    text-decoration: none;
+    align-items: center;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+.center{
+    text-align: center;
+}
+
+.card{
+    margin: 20px;
+
+}
+
+
+.izquierda{
+    background-color: grey;
+    width: 50%;
+    height: 100vh;
+    height: 50%;
+}
+
+#img2{
+    background-image: center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+.derecha{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(42, 42, 48, 0.911);
+    width: 50%;
+    color: white;
+    padding: 10px;
+}
+
+
+
+#pantalla_dividida{
+    display: flex;
+}
+#fin h5{
+    font-size: none;
+}
+
+.row{
+    --bs-gutter-x: 0.5rem;
+    margin-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.form-control{
+    margin: 5px;
+    padding: 5px;
+}
+
+#texto2{
+    padding: 5px;
+    font-size: 2rem;
+}
+
+#Fondo-2{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+}
+
+#Fondo-2 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.d-flex{
+    background-color: rgb(10, 74, 110);
+    justify-content: center;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 10%;
+}
+
+.btn{
+    margin: 0px;
+}
+
+div div button.btn{
+    width: auto;
+    height: auto;
+    font-size: 0,2em;
+    font-weight: 700;
+    padding: 0rem 0rem;
+}
+.btn-info{
+    color: white;
+}
+
+.contenedor{
+    position: relative;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    text-align: right;
+    top: 50%;
+    left: 50%;
+    max-width: 50%;
+    max-height: 300px;
+    font-size: 1.5rem;
+    transform: translate(0%, -50%);
+    color: white;
+    margin-right: 50px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    background-blend-mode: hard-light;    
+    background-color: rgb(50, 50, 50);
+}
+
+.btn.btn5{
+    width: 250px;
+    height: 70px;
+    font-size: 1.5rem;
+}
+
+
